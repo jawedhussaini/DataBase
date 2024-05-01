@@ -1,0 +1,69 @@
+{
+  "collectionName": "components_servey_fiche_pack_specifique_nutrit_iions",
+  "info": {
+    "displayName": " FichePackSpecifiqueNutritIion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "objectifsPhysiquesEtMental": {
+      "type": "text",
+      "default": "objectifsPhysiquesEtMental",
+      "required": true
+    },
+    "commentTeSensTuActuellementPsychologiquement": {
+      "type": "text",
+      "required": false,
+      "default": "commentTeSensTuActuellementPsychologiquement"
+    },
+    "commentTeSensTuDansTaViePersonnelleEtProfessionnelle": {
+      "type": "text"
+    },
+    "asTuDesApprehensionsOuCraintesConcernantCeCoaching": {
+      "type": "text"
+    },
+    "pourquoiSouhaitesTuTravaillerAvecMoi": {
+      "type": "text"
+    },
+    "quAttendsTuDeCeCoaching": {
+      "type": "text"
+    },
+    "quEstCeQuiTeMotiveLePlus": {
+      "type": "text"
+    },
+    "quEstCeQuiTeDeCourageLePlus": {
+      "type": "text"
+    },
+    "asTuDeJaSouffertOuSouffresTuDeTcaTelsQuAnorexieBoulimieOuHyperphagie": {
+      "type": "text"
+    },
+    "connaisTuTesApportsActuelsEnMacronutrimentsSiOuiQuelsSontIls": {
+      "type": "text"
+    },
+    "asTuDeJaSuiviUnOuDesReGimesSpeCifiquesSiOuiLeOuLesquelsQuandEtPendantCombienDeTemps": {
+      "type": "text"
+    },
+    "horaireDeRepasEnviron": {
+      "type": "string",
+      "required": true
+    },
+    "nombreDEntrainementQueTuPeuxRealiserSemaine": {
+      "type": "enumeration",
+      "enum": [
+        "une séance",
+        "deux séances",
+        "trois séances",
+        "quatre séances",
+        "cinq séances"
+      ],
+      "required": true
+    },
+    "exprimeTaRoutineTesBesoins": {
+      "type": "text",
+      "required": true
+    },
+    "siouiQuandgrignotestuetquelsaliments": {
+      "type": "text"
+    }
+  }
+}

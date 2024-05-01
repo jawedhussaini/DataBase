@@ -1,0 +1,78 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bilan_mensuel_pack_vip_premiums",
+  "info": {
+    "singularName": "bilan-mensuel-pack-vip-premium",
+    "pluralName": "bilan-mensuel-pack-vip-premiums",
+    "displayName": "BILAN MENSUEL PACK VIP PREMIUM",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "nom": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "review": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "servey.rev-chk"
+    },
+    "measure": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "servey.measurements"
+    },
+    "sleep": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "servey.sleep"
+    }
+  }
+}

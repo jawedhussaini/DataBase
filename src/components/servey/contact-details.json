@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_personal_info_contact_details",
+  "info": {
+    "displayName": "ContactDetails",
+    "icon": "alien",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "age": {
+      "type": "integer",
+      "required": true
+    },
+    "poidsActuel": {
+      "type": "decimal",
+      "required": true
+    },
+    "sexe": {
+      "type": "enumeration",
+      "enum": [
+        "Homme",
+        "Femme"
+      ],
+      "required": true
+    },
+    "taille": {
+      "type": "decimal",
+      "required": true
+    },
+    "postalCode": {
+      "type": "string",
+      "required": true
+    },
+    "ville": {
+      "type": "string",
+      "required": true
+    },
+    "numeroDeTelephone": {
+      "type": "string",
+      "required": true
+    },
+    "activiteProfessionnelle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

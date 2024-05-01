@@ -1,0 +1,66 @@
+{
+  "collectionName": "components_servey_measurements",
+  "info": {
+    "displayName": "Measurements",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "molletsD": {
+      "type": "decimal",
+      "required": true
+    },
+    "cuissesD": {
+      "type": "decimal",
+      "required": true
+    },
+    "fessiers": {
+      "type": "decimal",
+      "required": true
+    },
+    "taille": {
+      "type": "decimal",
+      "required": true
+    },
+    "nombril": {
+      "type": "decimal",
+      "required": true
+    },
+    "pectorauxPoitrine": {
+      "type": "decimal",
+      "required": true
+    },
+    "epaules": {
+      "type": "decimal",
+      "required": true
+    },
+    "brasD": {
+      "type": "decimal"
+    },
+    "photoDeFace": {
+      "type": "string",
+      "required": true
+    },
+    "photoDeProfil": {
+      "type": "string",
+      "required": true
+    },
+    "photoDeDos": {
+      "type": "string",
+      "required": true
+    },
+    "molletsG": {
+      "type": "decimal",
+      "required": true
+    },
+    "cuissesG": {
+      "type": "decimal",
+      "required": true
+    },
+    "brasG": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

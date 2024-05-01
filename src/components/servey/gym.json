@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_servey_gyms",
+  "info": {
+    "displayName": "Gym",
+    "icon": "arrowLeft"
+  },
+  "options": {},
+  "attributes": {
+    "quelleSalleDeSportVasTu": {
+      "type": "string"
+    },
+    "siTuNasPasDeSalleMaterielsADisposition": {
+      "type": "string"
+    },
+    "nombreDeSeanceSemaine": {
+      "type": "string"
+    }
+  }
+}

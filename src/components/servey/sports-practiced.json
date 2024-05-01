@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_servey_sports_practiceds",
+  "info": {
+    "displayName": "SportsPracticed",
+    "icon": "collapse"
+  },
+  "options": {},
+  "attributes": {
+    "siOuiQuelSport": {
+      "type": "string"
+    },
+    "nombreDheureParSemaine": {
+      "type": "string"
+    }
+  }
+}

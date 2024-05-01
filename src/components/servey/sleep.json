@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_servey_sleeps",
+  "info": {
+    "displayName": "sleep",
+    "icon": "code"
+  },
+  "options": {},
+  "attributes": {
+    "asTuFaisDesEcartsDansLaSemaine": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    }
+  }
+}

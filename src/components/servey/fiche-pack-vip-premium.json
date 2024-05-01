@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_servey_fiche_pack_vip_premiums",
+  "info": {
+    "displayName": "FichePackVipPremium"
+  },
+  "options": {},
+  "attributes": {
+    "objectifsPhysiqueMental": {
+      "type": "text",
+      "required": true
+    },
+    "horaireDeRepasEnviron": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

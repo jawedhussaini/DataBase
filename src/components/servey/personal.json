@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_servey_personals",
+  "info": {
+    "displayName": "Personal",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "nom": {
+      "type": "string",
+      "required": true
+    },
+    "prenom": {
+      "type": "string",
+      "required": true
+    },
+    "email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    }
+  }
+}

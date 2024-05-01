@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_servey_check_up_bi_mensuel_pack_starte_exes",
+  "info": {
+    "displayName": "CheckUpBiMensuelPackStarteEx"
+  },
+  "options": {},
+  "attributes": {
+    "asTuFaisDesEcartsDansLes2Semaines": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    }
+  }
+}

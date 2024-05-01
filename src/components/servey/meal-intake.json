@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_servey_meal_intakes",
+  "info": {
+    "displayName": "MealIntake",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "nombreDeRepasJour": {
+      "type": "string",
+      "required": true
+    },
+    "prendstuDesComplementsAlimentaires": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

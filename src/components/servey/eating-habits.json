@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_eating_eating_habits",
+  "info": {
+    "displayName": "EatingHabits",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "grignotages": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "hydratation": {
+      "type": "enumeration",
+      "enum": [
+        "une Litre / jour",
+        "deux Litres / jour",
+        "trois Litres / jour",
+        "plus trois Litres / jour"
+      ],
+      "required": true
+    },
+    "fastFood": {
+      "type": "enumeration",
+      "enum": [
+        "Jamais",
+        "De temps en temps",
+        "Souvent"
+      ],
+      "required": true
+    },
+    "alcool": {
+      "type": "enumeration",
+      "enum": [
+        "Jamais",
+        "De temps en temps",
+        "Souvent"
+      ],
+      "required": true
+    }
+  }
+}

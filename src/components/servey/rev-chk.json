@@ -1,0 +1,130 @@
+{
+  "collectionName": "components_servey_rev_chks",
+  "info": {
+    "displayName": "revChk",
+    "icon": "search",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "siOuiQuelEcartAsTuFais": {
+      "type": "string"
+    },
+    "arrivesTuAMangerToutesLesQuantites": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "siNonAQuelMomentDeLaJourneeAsTuDuMalAToutManger": {
+      "type": "string"
+    },
+    "ressensTuLaFaim": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "siOuiAQuelMomentDeLaJourneeAsTuFaim": {
+      "type": "string"
+    },
+    "asTuDesProblemesDeDigestion": {
+      "type": "enumeration",
+      "enum": [
+        "Oui, Ballonements",
+        "Non"
+      ]
+    },
+    "vasTuAuxToilettesRegulierement": {
+      "type": "enumeration",
+      "enum": [
+        "Oui Tous les jours",
+        "Non 1 jour sur 2",
+        "Non Rarement"
+      ]
+    },
+    "asTuPuFaireLEnsembleDesSeances": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "asTuDeBonnesSensationsDurantTesTrainings": {
+      "type": "enumeration",
+      "enum": [
+        "Pas de sensations",
+        "Bonnes sensations",
+        "De bonnes courbatures",
+        "De fortes courbatures"
+      ],
+      "required": true
+    },
+    "ressensTuDeLaFatigue": {
+      "type": "enumeration",
+      "enum": [
+        "Pas du tout",
+        "Juste après ma séance",
+        "Des coups de fatigues occasionnellement",
+        "Fatigue journalière / Difficulté à récupérer"
+      ],
+      "required": true
+    },
+    "tesChargesDExercicesAugmententElles": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non",
+        "Non mais j'ai une meilleur technique sur mes exercices"
+      ],
+      "required": true
+    },
+    "tesMenstruationsArriventEllesLaSemaineProchaine": {
+      "type": "enumeration",
+      "enum": [
+        "Je pense que oui",
+        "Non",
+        "Dérèglement hormonal de + 1 semaine"
+      ],
+      "required": true
+    },
+    "taQualiteDuSommeil": {
+      "type": "integer",
+      "required": true,
+      "min": 1,
+      "max": 10
+    },
+    "combienDHeuresDeSommeilDorsTu": {
+      "type": "enumeration",
+      "enum": [
+        "- de 5h / nuit",
+        "Entre 5h-7h / nuit",
+        "+ de 7h / nuit"
+      ],
+      "required": true
+    },
+    "combienDeLitresDEauJour": {
+      "type": "enumeration",
+      "enum": [
+        "une Litre / jour",
+        "deux Litres / jour",
+        "trois Litres / jour",
+        "plus quatre Litres / jour"
+      ],
+      "required": true
+    },
+    "resumeTesSensationsDeLaSemaineDUnPointDeVuePhysiquePsychologique": {
+      "type": "text",
+      "required": true
+    },
+    "PoidsAJeun": {
+      "type": "float",
+      "required": true
+    }
+  }
+}

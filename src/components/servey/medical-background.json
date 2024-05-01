@@ -1,0 +1,56 @@
+{
+  "collectionName": "components_medical_medical_backgrounds",
+  "info": {
+    "displayName": "MedicalBackground",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Allergies": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "siOuiLesquels": {
+      "type": "text"
+    },
+    "ashme": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "allergiesAlimentaires": {
+      "type": "enumeration",
+      "enum": [
+        "Oui",
+        "Non"
+      ],
+      "required": true
+    },
+    "siOuiLesquelles": {
+      "type": "text"
+    },
+    "problemesArticulaires": {
+      "type": "text"
+    },
+    "problemesDigestifs": {
+      "type": "text"
+    },
+    "problemesMusculaires": {
+      "type": "text"
+    },
+    "anciennesOperations": {
+      "type": "text"
+    },
+    "autres": {
+      "type": "text"
+    }
+  }
+}

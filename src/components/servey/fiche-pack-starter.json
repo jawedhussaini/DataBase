@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_servey_fiche_pack_starters",
+  "info": {
+    "displayName": "FichePackStarter"
+  },
+  "options": {},
+  "attributes": {
+    "objectifsMusculairesPhysique": {
+      "type": "text",
+      "required": true
+    },
+    "horaireDeRepasEnviron": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

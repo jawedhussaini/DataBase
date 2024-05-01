@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_servey_pack_training_athletes",
+  "info": {
+    "displayName": "PackTrainingAthlete"
+  },
+  "options": {},
+  "attributes": {
+    "disciplineSportive": {
+      "type": "string",
+      "required": true
+    },
+    "tesObjectifsAthletiques": {
+      "type": "text",
+      "required": true
+    },
+    "tesObjectifsPhysiques": {
+      "type": "text",
+      "required": true
+    },
+    "quelPosteTuOccupes": {
+      "type": "string",
+      "required": true
+    },
+    "raconteMoiTonParcoursEnQuelquesLignes": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
